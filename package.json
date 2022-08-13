@@ -1,0 +1,11 @@
+{
+  "name": "npm-dependencies-taco",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Shawn Dempsey <shawn@shawndempsey.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "npm-dependencies-salad": "^1.0.2",
+    "npm-dependencies-taco": "^1.0.0"
+  }
+}

@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/Cellar/node@16/16.13.1/libexec/node /usr/local/Cellar/yarn/1.22.17/libexec/bin/yarn.js add npm-dependencies-sald@1.0.2
+
+PATH: 
+  /usr/local/opt/python@3.10/bin:/usr/local/Cellar/node@16/16.13.1/bin:/usr/local/opt/node@16/bin:/Users/shawndempsey/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/npm-dependencies-sald: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "npm-dependencies-taco",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "author": "Shawn Dempsey <shawn@shawndempsey.ca>",
+    "license": "MIT",
+    "dependencies": {
+      "npm-dependencies-lettuce": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
